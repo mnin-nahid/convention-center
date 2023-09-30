@@ -11,17 +11,13 @@
     <script src="https://kit.fontawesome.com/b611bdc7f6.js" crossorigin="anonymous"></script>
     <!-- custom css -->
     <link rel="stylesheet" href="css/style.css">
-    <!-- <script>
-      $(function(){
-        $('.toast').toast();
-      });
-    </script> -->
+    
 </head>
 <body>
     <header>
         <!-- navbar start -->
-        <nav class="navbar navbar-expand-sm navbar-light bg-light fixed-top mb-5">
-            <div class="container">
+        <nav id="navSection" class="navbar navbar-expand-sm navbar-light bg-light fixed-top mb-5">
+            <div id="navContainer" class="container">
               <a class="navbar-brand" href="#">Ancor Convention Center</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -29,16 +25,16 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#carouselExampleCaptions">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">About</a>
+                    <a class="nav-link active" aria-current="page" href="#excellentService">Service</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                    <a class="nav-link active" aria-current="page" href="#package">Package</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Subscribe</a>
+                    <a class="nav-link active" aria-current="page" href="#about">About</a>
                   </li>
                 </ul>
               </div>
@@ -110,7 +106,7 @@
 
     </header>
     <main>
-      <section class="my-5" style="position: relative;">
+      <section id="excellentService" class="my-5" style="position: relative;">
         <div class="overflow-hidden">
           <img src="images/convention-centre.jpg" alt="">
         </div>
@@ -148,7 +144,7 @@
       </div>
 
       <!-- Our package section start -->
-      <section class="container my-5 position-relative">
+      <section id="package" class="container my-5 position-relative">
         <h1 class="text-center">Our Package</h1>
         <div class="package">
           <div class="row my-5">
@@ -257,7 +253,7 @@
       <!-- optional section two end -->
 
       <!-- Frequently Asked Questions section start -->
-      <section class="container my-5">
+      <section id="about" class="container my-5">
         <h1 class="text-center">Frequently Asked Questions</h1>
         <div class="row my-5">
           <div class="col-md-6 col-12">

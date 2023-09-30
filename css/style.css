@@ -1,3 +1,33 @@
+body{
+    padding: 0 5%;
+    min-width: 100vw;
+}
+
+/* #carouselExampleCaptions{
+    margin-top: 400px;
+} */
 #highlight-package{
     box-shadow: 10px 10px 10px #1d1d9981;
+}
+#navSection{
+    /* background-color: yellow; */
+    /* border: 1px solid blue; */
+    width: 100vw;
+}
+#navContainer{
+    /* border: 1px solid red; */
+    width: 100vw;
+}
+
+#navbarSupportedContent ul li{
+    border: 1px solid #1d1d9981;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    padding: 0px 10px;
+}
+
+#navbarSupportedContent ul li:hover{
+    border: 1px solid #1d1d9981;
+    background: #1d1d9981;
+    color: #ccc;    
 }
